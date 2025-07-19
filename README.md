@@ -25,7 +25,7 @@ This project is a dynamic web-based application designed to help parents or guar
 - MySQL (Database)
 
 **Others:**
-- XAMPP / MAMP (to run the PHP server locally)
+- XAMPP(to run the PHP server locally)
 - VS Code (as development environment)
 - Git & GitHub (for version control)
 
@@ -76,10 +76,6 @@ This project is a dynamic web-based application designed to help parents or guar
 
 5. Visit `http://localhost/Kids-Meal-Planner` in your browser.
 
-## 📸 Screenshots
-
-*Add relevant screenshots of the login page, planner UI, add/edit meal forms, etc.*
-
 ## 📚 Future Enhancements
 
 - Nutrition score calculation for meals
@@ -90,13 +86,13 @@ This project is a dynamic web-based application designed to help parents or guar
 
 ## 👩‍💻 Developed By
 
-**Vidharshana M**  
+**Vidharshana D**  
 B.E. CSE | Sri Shakthi Institute of Engineering and Technology  
-Finalist - TNWIS Hackathon | Passionate Full Stack & PHP Developer
+Passionate Full Stack Developer
 
 ## 📬 Contact
 
-- 📧 Email: vidharshanam@example.com  
+- 📧 Email: vidharshanadevaraj06@example.com  
 - 🔗 GitHub: [Vidharshana06-web](https://github.com/Vidharshana06-web)
 
 ## ⭐ Show Your Support
