@@ -1,119 +1,104 @@
-🧒🍽 Kids Meal Planner (PHP Project)
-The Kids Meal Planner is a dynamic, PHP-based web application designed to help parents and guardians plan healthy and structured meals for children. The platform allows users to log in, add/edit/delete meals, and view a clear weekly plan to ensure nutritious and balanced food intake. With a clean UI and intuitive design, this project promotes better organization and health planning for kids.
+# 🍽️ Kids Meal Planner
 
-📌 Features
-👨‍👩‍👧 User Login and Logout Functionality
+This project is a dynamic web-based application designed to help parents or guardians plan healthy and organized meals for their children. Built using **PHP** and **MySQL**, it offers a visually appealing and user-friendly interface to **add**, **edit**, **delete**, and **view** kids’ daily meals. This project is especially useful for schools, daycare centers, or health-conscious families looking to streamline their children's diet routines.
 
-🗓️ Add meals for specific days and dates
+## 📌 Features
 
-✏️ Edit, Delete, or Replace any existing meals
+- 📅 Add, Edit, Delete daily meals based on date and day
+- 🧒 Unique planner interface for kids' meals
+- 📝 Replace meals for a particular day
+- 🔐 Login and Logout functionality for secure access
+- 🏠 Beautiful Home page with navigation
+- ℹ️ About page describing the app
+- 📊 Simple database integration with meal tracking
+- 🎨 Visually appealing and consistent design
 
-📃 Weekly meal view for kids with dynamic data
+## 🛠️ Tech Stack Used
 
-🏠 Home, About, and Planner pages for easy navigation
+**Frontend:**
+- HTML5
+- CSS3 (internal per-page styling)
+- Bootstrap (optional for responsive layout)
 
-🎨 Visually attractive, responsive UI with custom styling
+**Backend:**
+- PHP (Core PHP)
+- MySQL (Database)
 
-🔐 Secure session-based user handling
+**Others:**
+- XAMPP / MAMP (to run the PHP server locally)
+- VS Code (as development environment)
+- Git & GitHub (for version control)
 
-🛠️ Tech Stack Used
-Frontend:
+## 📂 Folder Structure
 
-HTML5
+```
+/Kids-Meal-Planner/
+│
+├── assets/
+│   ├── css/
+│   │   └── (CSS files)
+│   └── images/
+│       └── (Meal-related images)
+│
+├── includes/
+│   ├── db.php
+│   ├── header.php
+│   └── footer.php
+│
+├── index.php              # Login Page
+├── home.php               # Home Page after login
+├── planner.php            # Main Kids Meal Planner Page
+├── about.php              # About Page
+├── logout.php             # Logout Handler
+├── register.php           # User Registration Page (optional)
+├── add_meal.php           # Form to Add Meal
+├── add_meal_action.php    # Backend logic for adding meal
+├── edit_meal.php          # Form to Edit Meal
+├── edit_meal_action.php   # Backend logic for editing meal
+├── delete_meal.php        # Script to delete meal
+├── login.php              # Form for Login
+├── login_process.php      # Backend logic for login
+└── register_action.php    # Backend logic for registration
+```
 
-CSS3 (with internal styling per page for consistent look)
+## 🚀 How to Run Locally
 
-Bootstrap (for responsive and modern layout)
+1. Download and install **XAMPP** (or MAMP) if not already installed.
 
-Backend:
+2. Clone this repository into your `htdocs` folder:
+   ```
+   git clone https://github.com/Vidharshana06-web/Kids-Meal-Planner.git
+   ```
 
-PHP (Core PHP for logic and routing)
+3. Start Apache and MySQL from the XAMPP Control Panel.
 
-MySQL (for storing user and meal data)
+4. Import the `kids_meal_db.sql` file into **phpMyAdmin** to set up the database.
 
-Others:
+5. Visit `http://localhost/Kids-Meal-Planner` in your browser.
 
-VS Code (development)
+## 📸 Screenshots
 
-XAMPP / PHP Server (for local testing)
+*Add relevant screenshots of the login page, planner UI, add/edit meal forms, etc.*
 
-phpMyAdmin (MySQL GUI)
+## 📚 Future Enhancements
 
-Git & GitHub (version control)
+- Nutrition score calculation for meals
+- Weekly/Monthly summary chart
+- Parental login and role management
+- Image upload for meals
+- Responsive mobile version
 
-📁 Folder Structure
-markdown
-Copy
-Edit
-/assets
-  /css
-    - (All internal CSS embedded per page)
-  /images
-/includes
-  - db.php
-  - header.php
-  - footer.php
-/pages
-  - index.php         (Login Page)
-  - register.php      (Optional Registration)
-  - home.php          (Post-login Home)
-  - planner.php       (Main Meal Planning Page)
-  - about.php         (About Info)
-  - add_meal.php
-  - edit_meal.php
-  - delete_meal.php
-  - logout.php
-  - login_process.php
-  - add_meal_action.php
-  - edit_meal_action.php
-🚀 How to Run Locally
-Install XAMPP or any PHP server.
+## 👩‍💻 Developed By
 
-Clone or download the project:
+**Vidharshana M**  
+B.E. CSE | Sri Shakthi Institute of Engineering and Technology  
+Finalist - TNWIS Hackathon | Passionate Full Stack & PHP Developer
 
-bash
-Copy
-Edit
-git clone https://github.com/YourUsername/Kids-Meal-Planner.git
-Move the folder to your XAMPP htdocs directory:
+## 📬 Contact
 
-bash
-Copy
-Edit
-C:/xampp/htdocs/Kids-Meal-Planner
-Start Apache and MySQL from XAMPP Control Panel.
+- 📧 Email: vidharshanam@example.com  
+- 🔗 GitHub: [Vidharshana06-web](https://github.com/Vidharshana06-web)
 
-Create a database kids_meal_db using phpMyAdmin and import the provided SQL file.
+## ⭐ Show Your Support
 
-Open your browser and visit:
-
-bash
-Copy
-Edit
-http://localhost/Kids-Meal-Planner/index.php
-📸 Screenshots
-(Add UI screenshots here if available)
-E.g., Login Page, Meal Planner Grid, Add/Edit Meal Form
-
-🎯 Future Enhancements
-✅ User registration with email verification
-
-📱 Mobile-friendly design improvements
-
-📊 Nutrition analysis and meal statistics
-
-🛠 Admin dashboard to manage all users and meals
-
-👩‍💻 Developed By
-Vidharshana D
-B.E. CSE | Sri Shakthi Institute of Engineering and Technology
-Full Stack Enthusiast
-
-📬 Contact
-📧 Email: vidharshanadevaraj06@example.com
-
-🔗 GitHub: Vidharshana06-web
-
-⭐ Show Your Support
-If you found this project useful, consider giving it a ⭐ on GitHub and sharing it with others who may benefit!
-
+If you liked this project, please consider giving it a ⭐ on [GitHub](https://github.com/Vidharshana06-web/Kids-Meal-Planner) and sharing it with others!
